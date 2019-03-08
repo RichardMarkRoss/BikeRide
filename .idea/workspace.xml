@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93033f97-1f95-4fa5-9eda-886e8f67a97e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeRide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeRide.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/Bicycle/Bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/Bicycle/BikeRide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bicycle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bicycle/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Bicycle/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="93033f97-1f95-4fa5-9eda-886e8f67a97e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/bicycles/BicycleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +167,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552056045184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552056613693" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -278,9 +270,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BicycleTest - 2019.03.07 at 17h 02m 31s.xml">
-      <configuration name="BicycleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BicycleTest - 2019.03.08 at 13h 03m 05s.xml">
       <configuration name="BicycleTest" configurationId="JUnit" />
     </history-entry>
@@ -308,6 +297,9 @@
     <history-entry file="BicycleTest_shouldAccellerate - 2019.03.08 at 16h 16m 04s.xml">
       <configuration name="BicycleTest.shouldAccellerate" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="BicycleTest_shouldAccellerate - 2019.03.08 at 16h 40m 49s.xml">
+      <configuration name="BicycleTest.shouldAccellerate" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -322,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33224756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33224756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +322,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/BicycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
