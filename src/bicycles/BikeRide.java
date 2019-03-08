@@ -1,11 +1,11 @@
-package Bicycle;
+package bicycles;
 
 public class BikeRide {
 
     Bicycle bicycle = new Bicycle();
 
     public BikeRide(Bicycle bicycle) {
-        BikeRide bikeRide = new BikeRide(bicycle);
+            BikeRide bikeRide = new BikeRide(bicycle);
         bikeRide.ride();
     }
 

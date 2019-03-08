@@ -1,22 +1,22 @@
-package Bicycle;
+package bicycles;
 
 public class Bicycle {
     private int speed;
 
     public void accelerate(){
-        speed += 5;
+        this.speed += 5;
     }
 
     public void brake(){
-        speed -= 3;
+        this.speed -= 3;
     }
 
     public int currentSpeed(){
-        return speed;
+        return this.speed;
     }
 
     public void stop() {
-        speed = 0;
+        this.speed = 0;
     }
 
 }

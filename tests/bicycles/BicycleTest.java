@@ -1,4 +1,4 @@
-package Bicycle;
+package bicycles;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,16 +9,16 @@ public class BicycleTest {
     @Test
     public void shouldAccellerate() {
         Bicycle bicycle = new Bicycle();
-        bicycle.accelerate()
-        assertEquals(0,5);
+        bicycle.accelerate();
+        assertEquals(5, bicycle.currentSpeed());
     }
     @Test
     public void shouldStop() {
         Bicycle bicycle = new Bicycle();
-        bicycle.stop()
-        assertEquals(0,0);
+        bicycle.stop();
+        assertEquals(0,bicycle.currentSpeed());
     }
-    @test
+    @Test
     public void shouldIncreaseSpeedFiveTimes(){
         Bicycle bicycle = new Bicycle();
         bicycle.accelerate();
@@ -26,6 +26,6 @@ public class BicycleTest {
         bicycle.accelerate();
         bicycle.accelerate();
         bicycle.accelerate();
-        assertquals(0,25)
+        assertEquals(5,bicycle.currentSpeed());
     }
 }
