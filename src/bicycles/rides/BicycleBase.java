@@ -11,6 +11,16 @@ public class BicycleBase implements Bicycle{
     }
 
     @Override
+    public void accelerate() {
+
+    }
+
+    @Override
+    public void brake() {
+
+    }
+
+    @Override
     public int currentSpeed() {
         return speed;
     }

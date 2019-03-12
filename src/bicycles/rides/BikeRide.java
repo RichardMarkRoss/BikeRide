@@ -2,11 +2,11 @@ package bicycles.rides;
 
 public class BikeRide implements Bicycle {
 
-    Bicycle bicycle = new Bicycle;
+    private Bicycle bicycle;
 
-    public BikeRide(Bicycle bicycle) {
-            BikeRide bikeRide = new BikeRide(bicycle);
-        bikeRide.ride();
+
+    public BikeRide(Bicycle bike) {
+        bicycle = bike;
     }
 
     @Override
