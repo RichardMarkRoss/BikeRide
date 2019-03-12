@@ -1,12 +1,32 @@
-package bicycles;
+package bicycles.rides;
 
-public class BikeRide {
+public class BikeRide implements Bicycle {
 
-    Bicycle bicycle = new Bicycle();
+    Bicycle bicycle = new Bicycle;
 
     public BikeRide(Bicycle bicycle) {
             BikeRide bikeRide = new BikeRide(bicycle);
         bikeRide.ride();
+    }
+
+    @Override
+    public void accelerate() {
+
+    }
+
+    @Override
+    public void brake() {
+
+    }
+
+    @Override
+    public int currentSpeed() {
+        return bicycle.currentSpeed();
+    }
+
+    @Override
+    public void stop() {
+
     }
 
     public void ride() {
@@ -16,6 +36,7 @@ public class BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
+    //14
     }
 
     public void Speed() {
