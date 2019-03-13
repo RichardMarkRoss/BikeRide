@@ -1,18 +1,15 @@
 package bicycles.rides;
 
-public class BikeRide implements Bicycle {
+public class BikeRide implements Bicycle{
 
-    private Bicycle bicycle;
-
+    public Bicycle bicycle;
     public BikeRide(Bicycle bike) {
         bicycle = bike;
     }
-
     @Override
     public void accelerate() {
 
     }
-
     @Override
     public void brake() {
 
@@ -21,18 +18,8 @@ public class BikeRide implements Bicycle {
     public int currentSpeed() {
         return bicycle.currentSpeed();
     }
-
     @Override
     public void stop() {
 
-    }
-
-    public void ride() {
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.brake();
-        this.bicycle.brake();
-        this.bicycle.accelerate();
     }
 }

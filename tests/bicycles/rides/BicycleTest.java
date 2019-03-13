@@ -51,8 +51,15 @@ public class BicycleTest{
     @Test
     public void shouldTestBikeRideCurrentSpeed() {
         RoadBike bicycle = new RoadBike();
-        BikeRide bikeride = new BikeRide(bicycle);
+        BikeRideOne bikeride = new BikeRideOne(bicycle);
         bikeride.ride();
         assertEquals(52, bikeride.currentSpeed());
+    }
+    @Test
+    public void ShouldTestBikeRide() {
+        RoadBike bicycle = new RoadBike();
+        BikeRide bikeRide = new BikeRide(bicycle);
+        bikeRide.accelerate();
+        assertEquals(0,bikeRide.currentSpeed());
     }
 }
