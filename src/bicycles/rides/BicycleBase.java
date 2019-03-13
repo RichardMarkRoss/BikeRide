@@ -1,23 +1,15 @@
 package bicycles.rides;
 
-public class BicycleBase implements Bicycle{
+public abstract class BicycleBase implements Bicycle{
     private int speed = 0;
 
-    protected int changeSpeed = (int)(speed += speed);
+    protected void changeSpeed(int speed){
+        this.speed += speed;
+    };
 
     @Override
-    public void stop() {
-
-    }
-
-    @Override
-    public void accelerate() {
-
-    }
-
-    @Override
-    public void brake() {
-
+    public void stop(){
+        this.speed = 0;
     }
 
     @Override

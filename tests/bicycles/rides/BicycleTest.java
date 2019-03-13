@@ -1,52 +1,58 @@
 package bicycles.rides;
 
+import bicycles.models.MountainBike;
+import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BicycleTest {
+public class BicycleTest{
 
 
     @Test
-    public void shouldAccellerate() {
-        Bicycle bicycle = new Bicycle() {
-            @Override
-            public void accelerate() {
-
-            }
-
-            @Override
-            public void brake() {
-
-            }
-
-            @Override
-            public int currentSpeed() {
-                return 0;
-            }
-
-            @Override
-            public void stop() {
-
-            }
-        };
+    public void shouldAccellerateForMountainBike() {
+        MountainBike bicycle = new MountainBike();
         bicycle.accelerate();
         assertEquals(5, bicycle.currentSpeed());
     }
     @Test
-    public void shouldStop() {
-        Bicycle bicycle = new Bicycle();
-        bicycle.stop();
-        assertEquals(0,bicycle.currentSpeed());
+    public void shouldAccellerateForRoadBike() {
+        RoadBike bicycle = new RoadBike();
+        bicycle.accelerate();
+        assertEquals(11, bicycle.currentSpeed());
     }
     @Test
-    public void shouldIncreaseSpeedFiveTimes(){
-        Bicycle bicycle = new Bicycle();
+    public void shouldTestBrakeForMountainBike() {
+        MountainBike bicycle = new MountainBike();
+        bicycle.brake();
+        assertEquals(3, bicycle.currentSpeed());
+    }
+    @Test
+    public void shouldTestBrakeForRoadBike() {
+        RoadBike bicycle = new RoadBike();
+        bicycle.brake();
+        assertEquals(4, bicycle.currentSpeed());
+    }
+
+    @Test
+    public void shouldTestStopForMountianBike() {
+        MountainBike bicycle = new MountainBike();
         bicycle.accelerate();
+        bicycle.stop();
+        assertEquals(0, bicycle.currentSpeed());
+    }
+    @Test
+    public void shouldTestStopForRoadBike() {
+        RoadBike bicycle = new RoadBike();
         bicycle.accelerate();
-        bicycle.accelerate();
-        bicycle.accelerate();
-        bicycle.accelerate();
-        assertEquals(25,bicycle.currentSpeed());
+        bicycle.stop();
+        assertEquals(0, bicycle.currentSpeed());
+    }
+    @Test
+    public void shouldTestBikeRideCurrentSpeed() {
+        RoadBike bicycle = new RoadBike();
+        BikeRide bikeride = new BikeRide(bicycle);
+        bikeride.ride();
+        assertEquals(52, bikeride.currentSpeed());
     }
 }

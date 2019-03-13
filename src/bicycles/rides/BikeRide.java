@@ -4,7 +4,6 @@ public class BikeRide implements Bicycle {
 
     private Bicycle bicycle;
 
-
     public BikeRide(Bicycle bike) {
         bicycle = bike;
     }
@@ -18,7 +17,6 @@ public class BikeRide implements Bicycle {
     public void brake() {
 
     }
-
     @Override
     public int currentSpeed() {
         return bicycle.currentSpeed();
@@ -36,10 +34,5 @@ public class BikeRide implements Bicycle {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
-    //14
-    }
-
-    public void Speed() {
-        this.bicycle.currentSpeed();
     }
 }
