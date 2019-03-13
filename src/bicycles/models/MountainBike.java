@@ -3,8 +3,13 @@ package bicycles.models;
 import bicycles.rides.BicycleBase;
 
 public class MountainBike extends BicycleBase {
-   private int accelMountain = 5;
-   private int brakeMountian = 3;
+   private int accelMountain;
+   private int brakeMountian;
+
+   public MountainBike(int accelMountain, int brakeMountian){
+      this.accelMountain = accelMountain;
+      this.brakeMountian = brakeMountian;
+   }
    public void accelerate() {
       changeSpeed(accelMountain);
    }
