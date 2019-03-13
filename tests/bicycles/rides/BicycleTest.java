@@ -62,4 +62,11 @@ public class BicycleTest{
         bikeRide.accelerate();
         assertEquals(0,bikeRide.currentSpeed());
     }
+    @Test
+    public void ShouldTestBikeRideTwo() {
+        MountainBike bicycle = new MountainBike();
+        BikeRideTwo bikeRide = new BikeRideTwo(bicycle);
+        bikeRide.ride();
+        assertEquals(41,bikeRide.currentSpeed());
+    }
 }
