@@ -1,5 +1,7 @@
 package bicycles.rides;
 
+import bicycles.Bicycle;
+
 public class BikeRideOne extends BikeRide {
 
     public BikeRideOne(Bicycle bike) {

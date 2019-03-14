@@ -1,6 +1,6 @@
-package bicycles.rides;
+package bicycles;
 
-public abstract class BicycleBase implements Bicycle{
+public abstract class BicycleBase implements Bicycle {
     private int speed = 0;
 
     protected void changeSpeed(int speed){
