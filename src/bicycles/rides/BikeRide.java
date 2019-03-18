@@ -24,4 +24,9 @@ public class BikeRide implements Bicycle {
     public void stop() {
 
     }
+
+    @Override
+    public String getBicycleType() {
+        return bicycle.getBicycleType();
+    }
 }
