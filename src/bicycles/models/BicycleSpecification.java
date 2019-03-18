@@ -1,12 +1,17 @@
 package bicycles.models;
 
+import bicycles.BicycleType;
+
 class BicycleSpecification{
+    private BicycleType bicycleType;
     private int accelerationSpeed;
     private int brakeSpeed;
 
-    public BicycleSpecification(int accelerationSpeed, int brakeSpeed) {
+    public BicycleSpecification(int accelerationSpeed, int brakeSpeed, BicycleType bicycleType) {
+
         this.accelerationSpeed = accelerationSpeed;
         this.brakeSpeed = brakeSpeed;
+        this.bicycleType = bicycleType;
     }
 
     public int getAccelerationSpeed(){
@@ -14,6 +19,9 @@ class BicycleSpecification{
     }
     public int getBrakeSpeed(){
         return brakeSpeed;
+    }
+    public BicycleType getBicycleType(){
+        return bicycleType;
     }
 }
 
