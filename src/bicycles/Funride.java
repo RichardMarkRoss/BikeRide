@@ -5,4 +5,5 @@ public class Funride {
     private int maxList;
 
 
+
 }

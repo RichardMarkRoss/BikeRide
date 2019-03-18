@@ -1,32 +1,6 @@
 package bicycles.rides;
 
-import bicycles.Bicycle;
-
-public class BikeRide implements Bicycle {
-
-    public Bicycle bicycle;
-    public BikeRide(Bicycle bike) {
-        bicycle = bike;
-    }
-    @Override
-    public void accelerate() {
-
-    }
-    @Override
-    public void brake() {
-
-    }
-    @Override
-    public int currentSpeed() {
-        return bicycle.currentSpeed();
-    }
-    @Override
-    public void stop() {
-
-    }
-
-    @Override
-    public String getBicycleType() {
-        return bicycle.getBicycleType();
-    }
+public interface BikeRide {
+    void ride();
+    int currentSpeed();
 }

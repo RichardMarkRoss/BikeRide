@@ -1,27 +1,28 @@
 package bicycles.models;
 
+import bicycles.BicycleType;
+
 class BicycleSpecification {
-    private String bicycleType;
+    private BicycleType bicycleType;
     private int accelerationSpeed;
     private int brakeSpeed;
 
-    public BicycleSpecification(int accelerationSpeed, int brakeSpeed,String BicycleType) {
+    public BicycleSpecification(int accelerationSpeed, int brakeSpeed,BicycleType bicycleType) {
         this.bicycleType = bicycleType;
-        if (bicycleType == bicycles.BicycleType.RoadBike.toString()){
+        if (bicycleType.equals(BicycleType.RoadBike)){
 
             this.accelerationSpeed = accelerationSpeed;
             this.brakeSpeed = brakeSpeed;
 
-        }else if(bicycleType == bicycles.BicycleType.MountainBike.toString()){
+        }else if(bicycleType.equals(BicycleType.MountainBike)){
 
             this.accelerationSpeed = accelerationSpeed;
             this.brakeSpeed = brakeSpeed;
 
-        }else if(bicycleType == bicycles.BicycleType.Tandem.toString()){
+        }else if(bicycleType.equals(BicycleType.Tandem)){
 
             this.accelerationSpeed = accelerationSpeed;
             this.brakeSpeed = brakeSpeed;
-
         }
     }
 
@@ -33,7 +34,7 @@ class BicycleSpecification {
         return brakeSpeed;
     }
 
-    public String getBicycleType(){
-        return bicycleType;
+    public BicycleType getBicycleType(){
+        return this.bicycleType;
     }
 }

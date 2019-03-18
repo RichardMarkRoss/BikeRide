@@ -2,11 +2,14 @@ package bicycles.rides;
 
 import bicycles.Bicycle;
 
-public class BikeRideOne extends BikeRide {
+public class BikeRideOne implements BikeRide {
+
+    private Bicycle bicycle;
 
     public BikeRideOne(Bicycle bike) {
-        super(bike);
+    this.bicycle = bike;
     }
+
 
     public void ride() {
         this.bicycle.accelerate();
@@ -16,4 +19,8 @@ public class BikeRideOne extends BikeRide {
         this.bicycle.brake();
         this.bicycle.accelerate();
     }
+     public int currentSpeed() {
+        return bicycle.currentSpeed();
+    }
+
 }
