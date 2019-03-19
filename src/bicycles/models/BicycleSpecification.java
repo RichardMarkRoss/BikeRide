@@ -2,7 +2,7 @@ package bicycles.models;
 
 import bicycles.BicycleType;
 
-class BicycleSpecification {
+public class BicycleSpecification {
     private BicycleType bicycleType;
     private int accelerationSpeed;
     private int brakeSpeed;
