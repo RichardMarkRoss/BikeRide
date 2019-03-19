@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93033f97-1f95-4fa5-9eda-886e8f67a97e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/bicycles/models/testBicycleFromSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bicycles/models/testBicycleSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bicycles/rides/testBikeRideOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bicycles/rides/testBikeRideTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bicycles/testBicycleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bicycles/testFunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/FunRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/FunRide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/BikeRide/bicycles/rides/BicycleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/FunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/rides/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bicycles/models/testBicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/models/testBicycleFromSpec.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -187,8 +177,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/bicycles/models/testBicycleFromSpec.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -348,7 +338,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552996892237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553004493908" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -382,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testBicycleFromSpec.shouldTestBikeFromSpecsMountBike">
+  <component name="RunManager" selected="JUnit.testBicycleFromSpec.shouldTestBikeFromSpecsType">
     <configuration name="BicycleTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -432,6 +422,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testBicycleFromSpec.shouldTestBikeFromSpecsType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles.models" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.testBicycleFromSpec" />
+      <option name="METHOD_NAME" value="shouldTestBikeFromSpecsType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testBicycleSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -443,22 +449,6 @@
       <option name="PACKAGE_NAME" value="bicycles.models" />
       <option name="MAIN_CLASS_NAME" value="bicycles.models.testBicycleSpecification" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testBicycleSpecification.shouldTestBikeSpecs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicycles.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bicycles.models" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.models.testBicycleSpecification" />
-      <option name="METHOD_NAME" value="shouldTestBikeSpecs" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -481,11 +471,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testBicycleFromSpec.shouldTestBikeFromSpecsType" />
         <item itemvalue="JUnit.testBicycleFromSpec.shouldTestBikeFromSpecsMountBike" />
         <item itemvalue="JUnit.testBicycleFromSpec.shouldTestBikeFromSpecsTandem" />
         <item itemvalue="JUnit.testBicycleSpecification" />
         <item itemvalue="JUnit.testBicycleSpecification.shouldTestBikeSpecsExtra" />
-        <item itemvalue="JUnit.testBicycleSpecification.shouldTestBikeSpecs" />
       </list>
     </recent_temporary>
   </component>
@@ -815,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/models/testBicycleFromSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
