@@ -2,10 +2,13 @@ package bicycles.models;
 
 import bicycles.BicycleBase;
 public class BicycleFromSpec extends BicycleBase {
-        private BicycleSpecification bicycle;
+        public BicycleSpecification bicycle;
         BicycleFromSpec(BicycleSpecification bicycle){
             this.bicycle = bicycle;
        }
+
+    public BicycleFromSpec() {
+    }
 
     @Override
     public void accelerate() {
