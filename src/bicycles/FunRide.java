@@ -12,20 +12,25 @@ public class FunRide extends BicycleFromSpec {
     public void FunRide(int max){
         this.maxCounter = max;
     }
-    public String getEnteredCount(){
+    public String Counter(Bicycle bicycle){
         if(maxCounter > count){
-            List.add((Bicycle) bicycle);
+            List.add(bicycle);
             count++;
             return "accept" + this.count;
         }else{
             return "decline";
         }
     }
-    public void getCountForType(){
+    public int getCountForType(BicycleType bicycleType){
         count = 0;
         for(int i = 0; i < List.size(); i++){
-            
+            if(bicycle == List.get(i)){
+                return count++;
+            }
         }
+        return count;
     }
-
+    public int getEnteredCount(){
+        return this.List.size();
+    }
 }
