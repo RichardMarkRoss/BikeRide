@@ -13,16 +13,10 @@ public class MountainBike extends BicycleBase {
       changeSpeed(brakeMountian);
    }
 
-   public static class BicycleFromSpec extends BicycleBase {
+    @Override
+    public void BicycleType() {
 
-       @Override
-       public void accelerate() {
+    }
 
-       }
-
-       @Override
-       public void brake() {
-
-       }
-   }
 }
+

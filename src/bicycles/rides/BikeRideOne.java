@@ -10,7 +10,6 @@ public class BikeRideOne implements BikeRide {
     this.bicycle = bike;
     }
 
-
     public void ride() {
         this.bicycle.accelerate();
         this.bicycle.accelerate();

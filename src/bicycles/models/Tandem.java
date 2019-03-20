@@ -13,4 +13,9 @@ public class Tandem extends BicycleBase {
     public void brake() {
         changeSpeed(brakeRoad);
     }
+
+    @Override
+    public void BicycleType() {
+
+    }
 }

@@ -5,6 +5,6 @@ public interface Bicycle {
     void brake();
     int currentSpeed();
     void stop();
-    BicycleType BicycleType();
-    String getBicycleType();
+    void BicycleType();
+    BicycleType getBicycleType();
 }
