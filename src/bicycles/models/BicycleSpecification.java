@@ -34,7 +34,7 @@ public class BicycleSpecification {
         return brakeSpeed;
     }
 
-    public BicycleType getBicycleType(){
+    public int getBicycleType(){
         return this.bicycleType;
     }
 }

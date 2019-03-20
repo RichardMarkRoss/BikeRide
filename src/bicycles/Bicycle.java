@@ -6,4 +6,5 @@ public interface Bicycle {
     int currentSpeed();
     void stop();
     BicycleType BicycleType();
+    String getBicycleType();
 }
