@@ -1,10 +1,10 @@
-package bicycles.models;
+package bicycles.specification;
 
 import bicycles.BicycleBase;
 
 public class BicycleFromSpec extends BicycleBase {
 
-    BicycleSpecification bicycle;
+    public BicycleSpecification bicycle;
 
         public BicycleFromSpec(BicycleSpecification bicycle){
             this.bicycle = bicycle;
