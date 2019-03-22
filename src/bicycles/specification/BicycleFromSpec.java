@@ -10,8 +10,6 @@ public class BicycleFromSpec extends BicycleBase {
             this.bicycle = bicycle;
        }
 
-
-
     @Override
     public void accelerate() {
         changeSpeed(this.bicycle.getAccelerationSpeed());

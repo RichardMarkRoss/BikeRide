@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class funRide {
     private ArrayList<Bicycle> List = new ArrayList<>();
     private int maxCounter = 0;
-    private int count = 0;
 
     public funRide(int max){
         this.maxCounter = max;
     }
 
     public String CounterAddBike(Bicycle bike){
+        int count = 0;
         if(maxCounter > count){
             List.add(bike);
             count++;
@@ -21,6 +21,7 @@ public class funRide {
         }
     }
     public int getCountForType(BicycleType bicycle) {
+        int count = 0;
         count = 0;
         for (Bicycle x : List) {
             if (x.getBicycleType() == bicycle){
