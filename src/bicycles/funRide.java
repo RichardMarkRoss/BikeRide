@@ -2,32 +2,32 @@ package bicycles;
 
 import java.util.ArrayList;
 
-public class FunRide {
+public class funRide {
     private ArrayList<Bicycle> List = new ArrayList<>();
     private int maxCounter = 0;
-    private int count = 0;
+    private int getCountFor = 0;
 
 
-    public FunRide(int max){
+    public funRide(int max){
         this.maxCounter = max;
     }
     public String CounterAddBike(Bicycle bike){
-        if(maxCounter > count){
+        if(maxCounter > getCountFor){
             List.add(bike);
-            count++;
+            getCountFor++;
             return "accept";
         }else{
             return "decline";
         }
     }
     public int getCountForType(BicycleType bicycle) {
-        count = 0;
+        getCountFor = 0;
         for (Bicycle x : List) {
             if (x.getBicycleType() == bicycle){
-                count++;
+                getCountFor++;
             }
         }
-        return count;
+        return getCountFor;
     }
     public int getEnteredCount(){
         return this.List.size();

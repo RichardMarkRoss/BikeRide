@@ -9,21 +9,8 @@ public class BicycleSpecification {
 
     public BicycleSpecification(int accelerationSpeed, int brakeSpeed,BicycleType bicycleType) {
         this.bicycleType = bicycleType;
-        if (bicycleType.equals(BicycleType.RoadBike)){
-
-            this.accelerationSpeed = accelerationSpeed;
-            this.brakeSpeed = brakeSpeed;
-
-        }else if(bicycleType.equals(BicycleType.MountainBike)){
-
-            this.accelerationSpeed = accelerationSpeed;
-            this.brakeSpeed = brakeSpeed;
-
-        }else if(bicycleType.equals(BicycleType.Tandem)){
-
-            this.accelerationSpeed = accelerationSpeed;
-            this.brakeSpeed = brakeSpeed;
-        }
+        this.accelerationSpeed = accelerationSpeed;
+        this.brakeSpeed = brakeSpeed;
     }
 
     public int getAccelerationSpeed(){

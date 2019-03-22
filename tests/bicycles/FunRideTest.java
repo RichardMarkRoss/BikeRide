@@ -22,7 +22,7 @@ class FunRideTest {
         Bicycle Road = new RoadBike();
 
 
-        FunRide funRide = new FunRide(5);
+        funRide funRide = new funRide(5);
         funRide.CounterAddBike(Mountain);
         funRide.CounterAddBike(Mountain);
         funRide.CounterAddBike(Mountain);
@@ -40,7 +40,7 @@ class FunRideTest {
 
         Bicycle Mountain = new MountainBike();
 
-        FunRide funRide = new FunRide(5);
+        funRide funRide = new funRide(5);
         funRide.getCountForType(BicycleType.MountainBike);
         assertEquals(funRide.CounterAddBike(Mountain), "accept");
     }
@@ -54,7 +54,7 @@ class FunRideTest {
         Bicycle Mountain = new MountainBike();
         Bicycle Tandem = new Tandem();
 
-        FunRide funRide = new FunRide(5);
+        funRide funRide = new funRide(5);
         funRide.getCountForType(BicycleType.MountainBike);
         funRide.CounterAddBike(Tandem);
         funRide.CounterAddBike(Tandem);
