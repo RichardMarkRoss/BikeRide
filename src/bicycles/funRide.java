@@ -5,32 +5,32 @@ import java.util.ArrayList;
 public class funRide {
     private ArrayList<Bicycle> List = new ArrayList<>();
     private int maxCounter = 0;
-    private int getCountFor = 0;
-
+    private int count = 0;
 
     public funRide(int max){
         this.maxCounter = max;
     }
+
     public String CounterAddBike(Bicycle bike){
-        if(maxCounter > getCountFor){
+        if(maxCounter > count){
             List.add(bike);
-            getCountFor++;
+            count++;
             return "accept";
         }else{
             return "decline";
         }
     }
     public int getCountForType(BicycleType bicycle) {
-        getCountFor = 0;
+        count = 0;
         for (Bicycle x : List) {
             if (x.getBicycleType() == bicycle){
-                getCountFor++;
+                count ++;
             }
         }
-        return getCountFor;
+        return count;
     }
     public int getEnteredCount(){
         return this.List.size();
-    }
-
+     }
 }
+
