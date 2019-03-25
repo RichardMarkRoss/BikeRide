@@ -1,13 +1,11 @@
 package bicycles.specification;
 
-import bicycles.specification.BicycleFromSpec;
 import bicycles.BicycleType;
-import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class testBicycleFromSpec {
+public class TestBicycleFromSpec {
 
     @Test
     public void shouldTestBikeFromSpecsBrake(){

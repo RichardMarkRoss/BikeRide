@@ -18,12 +18,7 @@ public class BicycleTest{
         bicycle.accelerate();
         assertEquals(5, bicycle.currentSpeed());
     }
-    @Test
-    public void shouldAccellerateForRoadBike() {
-        RoadBike bicycle = new RoadBike();
-        bicycle.accelerate();
-        assertEquals(11, bicycle.currentSpeed());
-    }
+
     @Test
     public void shouldTestBrakeForMountainBike() {
         MountainBike bicycle = new MountainBike();
