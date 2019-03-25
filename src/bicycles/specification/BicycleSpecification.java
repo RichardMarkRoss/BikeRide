@@ -7,7 +7,7 @@ public class BicycleSpecification {
     private int accelerationSpeed;
     private int brakeSpeed;
 
-    public BicycleSpecification(int accelerationSpeed, int brakeSpeed,BicycleType bicycleType) {
+    public BicycleSpecification(int accelerationSpeed, int brakeSpeed, BicycleType bicycleType) {
         this.bicycleType = bicycleType;
         this.accelerationSpeed = accelerationSpeed;
         this.brakeSpeed = brakeSpeed;
@@ -19,7 +19,5 @@ public class BicycleSpecification {
     public int getBrakeSpeed(){
         return brakeSpeed;
     }
-    public BicycleType getBicycleType(){
-        return this.bicycleType;
-    }
+    public BicycleType getBicycleType(){ return bicycleType; }
 }

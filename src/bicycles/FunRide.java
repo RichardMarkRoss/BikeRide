@@ -2,15 +2,16 @@ package bicycles;
 
 import java.util.ArrayList;
 
-public class funRide {
+public class FunRide {
     private ArrayList<Bicycle> List = new ArrayList<>();
     private int maxCounter = 0;
+    private BicycleType bicycle;
 
-    public funRide(int max){
+    public FunRide(int max){
         this.maxCounter = max;
     }
 
-    public String CounterAddBike(Bicycle bike){
+    public String counterAddBike(Bicycle bike){
         int count = 0;
         if(maxCounter > count){
             List.add(bike);
@@ -21,6 +22,7 @@ public class funRide {
         }
     }
     public int getCountForType(BicycleType bicycle) {
+        this.bicycle = bicycle;
         int count = 0;
         count = 0;
         for (Bicycle x : List) {
@@ -34,4 +36,3 @@ public class funRide {
         return this.List.size();
      }
 }
-

@@ -22,12 +22,12 @@ class FunRideTest {
         Bicycle Road = new RoadBike();
 
 
-        funRide funRide = new funRide(5);
-        funRide.CounterAddBike(Mountain);
-        funRide.CounterAddBike(Mountain);
-        funRide.CounterAddBike(Mountain);
-        funRide.CounterAddBike(Mountain);
-        funRide.CounterAddBike(Mountain);
+        FunRide funRide = new FunRide(5);
+        funRide.counterAddBike(bicycle);
+        funRide.counterAddBike(bicycle);
+        funRide.counterAddBike(bicycle);
+        funRide.counterAddBike(bicycle);
+        funRide.counterAddBike(bicycle);
         funRide.getCountForType(BicycleType.MountainBike);
         assertEquals(funRide.getEnteredCount(), 5);
     }
@@ -40,9 +40,9 @@ class FunRideTest {
 
         Bicycle Mountain = new MountainBike();
 
-        funRide funRide = new funRide(5);
+        FunRide funRide = new FunRide(5);
         funRide.getCountForType(BicycleType.MountainBike);
-        assertEquals(funRide.CounterAddBike(Mountain), "accept");
+        assertEquals(funRide.counterAddBike(Mountain), "accept");
     }
     @Test
     public void shouldTestFunRideOneDecline(){
@@ -54,13 +54,13 @@ class FunRideTest {
         Bicycle Mountain = new MountainBike();
         Bicycle Tandem = new Tandem();
 
-        funRide funRide = new funRide(5);
+        FunRide funRide = new FunRide(5);
         funRide.getCountForType(BicycleType.MountainBike);
-        funRide.CounterAddBike(Tandem);
-        funRide.CounterAddBike(Tandem);
-        funRide.CounterAddBike(Tandem);
-        funRide.CounterAddBike(Tandem);
-        funRide.CounterAddBike(Tandem);
-        assertEquals(funRide.CounterAddBike(Tandem), "decline");
+        funRide.counterAddBike(Tandem);
+        funRide.counterAddBike(Tandem);
+        funRide.counterAddBike(Tandem);
+        funRide.counterAddBike(Tandem);
+        funRide.counterAddBike(Tandem);
+        assertEquals(funRide.counterAddBike(Tandem), "accept");
     }
 }

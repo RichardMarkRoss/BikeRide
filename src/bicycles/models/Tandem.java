@@ -1,6 +1,7 @@
 package bicycles.models;
 
 import bicycles.BicycleBase;
+import bicycles.BicycleType;
 
 public class Tandem extends BicycleBase {
     private int accelRoad = 7;
@@ -15,7 +16,7 @@ public class Tandem extends BicycleBase {
     }
 
     @Override
-    public void BicycleType() {
-
+    public BicycleType getBicycleType() {
+        return BicycleType.Tandem;
     }
 }
