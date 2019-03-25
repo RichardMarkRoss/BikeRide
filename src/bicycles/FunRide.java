@@ -3,7 +3,7 @@ package bicycles;
 import java.util.ArrayList;
 
 public class FunRide {
-    private ArrayList<Bicycle> List = new ArrayList<>();
+    private ArrayList<Bicycle> list = new ArrayList<>();
     private int maxCounter = 0;
     private BicycleType bicycle;
 
@@ -14,7 +14,7 @@ public class FunRide {
     public String counterAddBike(Bicycle bike){
         int count = 0;
         if(maxCounter > count){
-            List.add(bike);
+            list.add(bike);
             count++;
             return "accept";
         }else{
@@ -25,7 +25,7 @@ public class FunRide {
         this.bicycle = bicycle;
         int count = 0;
         count = 0;
-        for (Bicycle x : List) {
+        for (Bicycle x : list) {
             if (x.getBicycleType() == bicycle){
                 count ++;
             }
@@ -33,6 +33,6 @@ public class FunRide {
         return count;
     }
     public int getEnteredCount(){
-        return this.List.size();
+        return this.list.size();
      }
 }
